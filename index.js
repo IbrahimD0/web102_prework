@@ -149,7 +149,7 @@ const descriptionContainer = document.getElementById("description-container");
 
 const unfundedOnlyCnt = GAMES_JSON.filter(game => game.pledged < game.goal).length;
 
-let grammar = unfundedOnlyCnt > 1 ? 'games remains': 'game remain'
+let grammar = unfundedOnlyCnt > 1 ? 'games remain': 'game remains'
 // create a string that explains the number of unfunded games using the ternary operator
 const displayStr = `A total of $${pledged.toLocaleString()} has been raised for ${GAMES_JSON.length} games. Currently ${unfundedOnlyCnt} ${grammar} unfunded. 
 We need you help to help fund these amazing games!`
