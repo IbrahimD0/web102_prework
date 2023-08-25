@@ -36,6 +36,8 @@ GIF created with Giphy
 
 Describe any challenges encountered while building the app.
 
+I didn't really face any challenges. There are a lot of similarties of Javascript and python/java so it's easy for me to undestand new syntax pretty quickly.
+
 ## License
 
     Copyright [2023] [Ibrahim Dobashi]
